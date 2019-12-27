@@ -49,7 +49,6 @@ class FullContact(object):
                 module.
         """
 
-        breakpoint()
         headers = {'Authorization': 'Bearer {}'.format(self.api_key)}
         headers['Content-Type'] = 'application/json'
         endpoint = self.base_url + self.post_endpoints[endpoint]
